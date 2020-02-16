@@ -1,3 +1,26 @@
-.h1 {
-    font-family: "Tomorrow";
+* {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 18px;
 }
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+.container {
+    height: 75px;
+    background-color: white;
+   
+}
+
+.page_title{
+    display: inline-block;
+    position: absolute;
+    width: 949px;
+    height: 55px;
+    text-align: center;
+    margin-top: 10px;
+}
+
