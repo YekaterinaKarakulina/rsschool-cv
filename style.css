@@ -1,0 +1,68 @@
+* {
+    font-family: 'Tomorrow', sans-serif;
+    
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+}
+
+.container {
+    height: 75px;
+}
+
+.page_title{
+    display: inline-block;
+    position: absolute;
+    width: 949px;
+    height: 55px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main {
+    background-color:  rgb(255, 235, 254);
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.photo {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.skills li {
+    display:block;
+    width:49%;
+    float:left;
+    margin-bottom: 10px;
+}
+
+.code {
+    width: 500px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 80%;
+}
+
+.footer {
+    width: 1024px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: right;
+}
+
+
+
+
+
+
