@@ -12,7 +12,7 @@
   <header class="header">
     <div class="wrapper">
       <div class="container">
-        <img src="src/logo.jpg" alt="image not found" width="75px">   
+        <img class="logo" src="src/logo.jpg" alt="image not found">   
         <div class="page_title">
           <h2>My resume page</h2>
         </div> 
@@ -20,12 +20,12 @@
        
     </div>
   </header> 
-  <br>
+  
   
   <main class="main">
     <div class="wrapper">
-      <img src="src/photo.jpg" alt="image not found">
-      <p class="name">
+        <img class="photo" src="src/photo.jpg" alt="image not found">
+        <p class="name">
         <h1>
           Karakulina Yekaterina
         </h1>
@@ -52,32 +52,34 @@
           <li>Jenkins</li>
         </ul>
       </div>
-      <div class="code examples">
+      <div class="code_examples">
         <h3>Code examples</h3>
         <a href="https://github.com/YekaterinaKarakulina">My github repository</a>
-        <h4>Arduino buzzer song</h4>
-        <code>
-          <pre>
-            #include <PololuBuzzer.h>  
-            PololuBuzzer buzzer;     
-            void setup() { }
-            void loop()        
-            {
-            buzzer.playNote(NOTE_G(4), 250, 15);    
-            delay(260);
-            buzzer.playNote(NOTE_G(4), 250, 15);
-            delay(260);
-            buzzer.playNote(NOTE_A(4), 500, 15);
-            delay(510);
-            buzzer.playNote(NOTE_G(4), 500, 15);
-            delay(510);
-            buzzer.playNote(NOTE_C(5), 500, 15);
-            delay(510);
-            buzzer.playNote(NOTE_B(4), 1000, 15);
-            delay(1010);
-            }
-          </pre>
-        </code>
+        <div class="code">
+          <h5>Arduino buzzer song</h5>
+          <code>
+            <pre>
+              #include <PololuBuzzer.h>  
+              PololuBuzzer buzzer;     
+              void setup() { }
+              void loop()        
+              {
+              buzzer.playNote(NOTE_G(4), 250, 15);    
+              delay(260);
+              buzzer.playNote(NOTE_G(4), 250, 15);
+              delay(260);
+              buzzer.playNote(NOTE_A(4), 500, 15);
+              delay(510);
+              buzzer.playNote(NOTE_G(4), 500, 15);
+              delay(510);
+              buzzer.playNote(NOTE_C(5), 500, 15);
+              delay(510);
+              buzzer.playNote(NOTE_B(4), 1000, 15);
+              delay(1010);
+              }
+            </pre>
+          </code>
+        </div>
       </div>
       <div class="experience">
         <h3>Experience</h3>
